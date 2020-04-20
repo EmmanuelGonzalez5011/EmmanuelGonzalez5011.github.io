@@ -1,0 +1,406 @@
+<!DocType html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+   <title> Emmanuel Gonzalez </title>
+ <style>
+
+      	body, html {
+        height: 100%;
+		overflow: hidden;
+     }
+     body { 
+	  height: 100%; 	  
+      background-position: center;
+      background-repeat: no-repeat;
+	  background-size: cover;
+	}  
+	 .dropbtn {
+      display: inline-block;
+      padding: 15px 25px;
+	  font-family: "Comic Sans MS", cursive, sans-serif;
+      font-size: 24px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      outline: none;
+      color: #fff;
+      background-color: #1c456b;
+      border: outset;
+      border-radius: 15px;
+      box-shadow: 0 9px darkcyan;
+    }
+	  button:active {
+      background-color: #7aefff;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+	}
+	   .dropbtn:hover, .dropbtn:focus {	   
+	}
+	    .dropdown {
+		   possition: relative;
+		   display: inline-block;
+	}
+	    .dropdown-content {
+		    display: none;
+			position: fixed;
+			background-color: white;
+			min-width: 160px;
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			z-index: 1;
+			
+    }
+	     .dropdown-content a {
+		     color: black;
+			 padding: 12px 16px;
+			 text-decoration: none;
+			 display: block;
+	}   
+	     .show {
+		 display:block;
+    }
+	    .proj {
+		 color: white;
+		 padding: 0px;
+		 font-size: 0px;
+		 border: none;
+		 cursor: pointer;
+		 margin-top: 25px;
+		 
+	}
+	     button {
+		 display: inline-block;
+         padding: 15px 25px;
+	     font-family: "Comic Sans MS", cursive, sans-serif;
+         font-size: 24px;
+         cursor: pointer;
+         text-align: center;
+         text-decoration: none;
+         outline: none;
+         color: #fff;
+         background-color: #1c456b;
+         border: outset;
+         border-radius: 15px;
+         box-shadow: 0 9px darkcyan;
+         margin-top: 25px;		 
+	}
+	     .contact {
+		 display: inline-block;
+         padding: 15px 25px;
+	     font-family: "Comic Sans MS", cursive, sans-serif;
+         font-size: 24px;
+         cursor: pointer;
+         text-align: center;
+         text-decoration: none;
+         outline: none;
+         color: #fff;
+         background-color: #1c456b;
+         border: outset;
+         border-radius: 15px;
+         box-shadow: 0 9px darkcyan;
+         margin-top: 25px;
+    }		 
+		 
+		.res {
+		display: inline-block;
+         padding: 15px 25px;
+	     font-family: "Comic Sans MS", cursive, sans-serif;
+         font-size: 24px;
+         cursor: pointer;
+         text-align: center;
+         text-decoration: none;
+         outline: none;
+         color: #fff;
+         background-color: #1c456b;
+         border: outset;
+         border-radius: 15px;
+         box-shadow: 0 9px darkcyan; 
+		 margin-top: 25px;
+    }		
+	    .port {
+		margin-left: 1200px;
+		border-radius: 50%;
+		width: 120px;
+        box-shadow: 10px 10px 5px darkcyan;
+        position: fixed;
+		
+    }
+	    h1 {
+		font-family: "Comic Sans MS", cursive, sans-serif;
+		text-decoration: underline;
+		text-shadow: 2px 2px darkcyan;
+		color: white;
+		cursor: default;
+    }
+       .java {
+	   width:100px;
+	   position: fixed;
+	   margin-left:1150px;
+	   margin-top:-50px;
+	}
+	   .html5 {
+	   width:100px;
+	   position: fixed;
+	   margin-left:1250px;
+       margin-top:-50px;	   
+	}   
+	    .css {
+	   width:100px;
+	   position: fixed;
+	   margin-left:1250px;
+	   margin-top: 50px;
+	}
+	   .jq {
+	   width:100px;
+	   position: fixed;
+	   margin-left:1150px;
+	   margin-top: 50px;
+	}
+	   .php {
+	   width:100px;
+	   position: fixed;
+	   margin-left:1150px;
+	   margin-top: 150px;
+	}
+	  .pyt{
+	   width:100px;
+	   position: fixed;
+	   margin-left:1250px;
+	   margin-top: 140px;
+	}   
+	   .pro {
+	   font-family: "Comic Sans MS", cursive, sans-serif;
+	   text-decoration: underline;
+	   text-shadow: 2px 2px darkcyan;
+	   color: white;
+	   position: fixed;
+	   margin-left:1150px;
+	   margin-top:-100px;
+	}
+	   .sw {
+	   font-family: "Comic Sans MS", cursive, sans-serif;
+		text-decoration: underline;
+		text-shadow: 2px 2px darkcyan;
+		color: white;
+	}
+	  .np {
+	   width:100px;
+	   position: fixed;
+	   margin-left:0px;
+	   margin-top:0px;
+	}
+	   .vs {
+	   width:100px;
+	   position: fixed;
+	   margin-left:100px;
+       margin-top:0px;	   
+	}   
+	    .bs {
+	   width:100px;
+	   position: fixed;
+	   margin-left:0px;
+	   margin-top: 100px;
+	}
+	   .atm {
+	   width:75px;
+	   position: fixed;
+	   margin-left:125px;
+	   margin-top: 100px;
+	}
+	   .nd {
+	   width:75px;
+	   position: fixed;
+	   margin-left: 225px;
+	   margin-top: 0px;
+	}
+	  .rct{
+	   width:75px;
+	   position: fixed;
+	   margin-left:225px;
+	   margin-top: 100px;
+	}
+	  .typewriter .wrap {
+  overflow: hidden;
+  border-right: .15em solid orange; 
+  white-space: nowrap; 
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+   @keyframes typing {
+   from { width: 0 }
+   to { width: 100% }
+}
+   @keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+   #typewriter .typewrite {
+  Position: fixed;
+  margin-left: 450px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-decoration: underline;
+  text-shadow: 2px 2px darkcyan;
+  color: black;
+  width: 500px;
+  height: 500px;
+  padding: 10px;
+  border: 5px inset darkcyan;
+  background-color: white;
+  font-size: 20px;
+}
+ 
+   
+ </style>
+	<script>
+      function dropDown() {
+		 document.getElementById("projects").classList.toggle("show");
+		 }
+		 window.onclick = function() {
+		 if (!event.target.matches('.dropbtn')) {
+		    
+			var dropdowns = document.getElementsByClassName("dropdown-content");
+			var i;
+			for (i = 0; i < dropdowns.length; i++) {
+			var openDropdown = dropdowns[i];
+			if (openDropdown.classList.contains('show')) {
+			   openDropdown.classList.remove('show');
+			  }
+			}
+		  }
+		};
+		
+		var TxtType = function(el, toRotate, period) {
+        this.toRotate = toRotate;
+        this.el = el;
+        this.loopNum = 0;
+        this.period = parseInt(period, 10) || 2000;
+        this.txt = '';
+        this.tick();
+        this.isDeleting = false;
+    };
+
+    TxtType.prototype.tick = function() {
+        var i = this.loopNum % this.toRotate.length;
+        var fullTxt = this.toRotate[i];
+
+        if (this.isDeleting) {
+        this.txt = fullTxt.substring(0, this.txt.length - 1);
+        } else {
+        this.txt = fullTxt.substring(0, this.txt.length + 1);
+        }
+
+        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+        var that = this;
+        var delta = 200 - Math.random() * 100;
+
+        if (this.isDeleting) { delta /= 2; }
+
+        if (!this.isDeleting && this.txt === fullTxt) {
+        delta = this.period;
+        this.isDeleting = true;
+        } else if (this.isDeleting && this.txt === '') {
+        this.isDeleting = false;
+        this.loopNum++;
+        delta = 500;
+        }
+
+        setTimeout(function() {
+        that.tick();
+        }, delta);
+    };
+
+    window.onload = function() {
+        var elements = document.getElementsByClassName('typewrite');
+        for (var i=0; i<elements.length; i++) {
+            var toRotate = elements[i].getAttribute('data-type');
+            var period = elements[i].getAttribute('data-period');
+            if (toRotate) {
+              new TxtType(elements[i], JSON.parse(toRotate), period);
+            }
+        }
+        
+        var css = document.createElement("style");
+        css.type = "text/css";
+        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+        document.body.appendChild(css);
+    };
+		
+		  
+	       
+	</script>
+	  </head>
+	 <h1> Emmanuel Gonzalez </h1>
+	
+	<body background="C:/Users/Emman/Desktop/website/Background12.jpg">
+	
+	<div id="textbox">
+	<h1 id="typewriter">
+  <a href="" class="typewrite" data-period="2000" data-type='[ "Hi, My name is Emmanuel.", "But you can call me Many.", "I Love Design.", "I Love to Develop.","So...","Let me tell you a little about myself."]'>
+    <span class="wrap"></span>
+  </a>
+</h1>
+	 
+	 
+	 
+	 </div>
+	 
+	
+<div class="portrait">
+	<img class="port" type="portrait" src="C:\Users\Emman\Desktop\website\many2.jpg"></img>
+	</div>
+<div class="email">
+ <a class="contact" href="C:\Users\Emman\Documents\Emmanuel Gonzalez2.html">Contact</a>
+ 
+
+  </div>
+<div class="dropdown">
+  <button id="proj" class="dropbtn" onclick='dropDown()'>Projects
+   </button>
+  <div id="projects" class="dropdown-content">
+     <a href="https://github.com/EmmanuelGonzalez5011" target="_blank">Github</a>
+	 <a href="#">test</a>
+     <a href="#">test</a>
+	</div>
+</div>
+ <div class="resume">
+ <a class="res" href="C:/Users/Emman/Documents/Emmanuel%20Gonzalez3.html">résumé</a>
+ 
+  
+</div>
+ <div class="lang">
+  <p class="pro">Programing Languages known</p>
+ <img src="C:\Users\Emman\Desktop\website\javascript.png" class="java">
+ <img src="C:\Users\Emman\Desktop\website\html5.png" class="html5">
+ <img src="C:\Users\Emman\Desktop\website\css.png" class="css">
+ <img src="C:\Users\Emman\Desktop\website\jquery.png" class="jq">
+ <img src="C:\Users\Emman\Desktop\website\php.png" class="php">
+ <img src="C:\Users\Emman\Desktop\website\python.png" class="pyt">
+ 
+ </div>
+<div class="software">
+ <p class="sw">Known Programing Software</p>
+ <img src="C:\Users\Emman\Desktop\website\notepad.png" class="np">
+ <img src="C:\Users\Emman\Desktop\website\mvs.png" class="vs">
+ <img src="C:\Users\Emman\Desktop\website\bootstrap.png" class="bs">
+ <img src="C:\Users\Emman\Desktop\website\atom.png" class="atm">
+ <img src="C:\Users\Emman\Desktop\website\node.png" class="nd">
+ <img src="C:\Users\Emman\Desktop\website\react.png" class="rct">
+</div>
+ <div class="main"></div>
+<div id="header"></div>
+<div id="parent">
+    <div id="navbar"></div>
+     <div id="main-content"></div>
+	 <div id="btn"></div>
+</div>
+
+</body>
+
+
+	
+	
+	</html>
