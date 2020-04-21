@@ -1,0 +1,189 @@
+
+#background
+{
+ background-color:transparent;
+  width:1200px;
+  height: 1000px;
+  margin-left: auto;
+  margin-right:auto;  
+}
+
+body
+{
+    margin: 0;
+    background-image: url(standard_furniture_logo.jpg);
+    font-family: verdana;
+}
+#banner
+{
+    width: 100px;
+    height:300px;
+}
+#standard
+{
+    width: 1200px;
+    height: 300px;
+}
+#content
+{
+    background-color: white;
+    width: 1185px;
+    height: 900px;
+    float:left;
+    padding-right: 15px;
+}
+#nav
+{
+    
+    
+}
+#nav ul
+{
+ margin-left: auto;
+ margin-right: auto;
+ padding: 3px;
+ list-style-type: none;
+ font-family: sans-serif;
+ position: relative;
+ left: 75px;
+ font-size: 25px;
+ 
+}
+#nav ul li
+{
+ display: inline;
+ text-decoration: none;
+
+}
+#nav ul li a
+{
+ text-decoration: none;
+ padding: 3px;
+ color: black;   
+}
+#main
+{
+
+width: 875;
+height: 800px;
+position: relative;
+top: -20;
+border-top: 5px;
+border-color: black;
+border-top: solid;
+float: left;
+
+}
+#side
+{
+
+width: 300;
+height: 800px;
+position: relative;
+top: -20;
+border-top: 5px;
+border-color: black;
+border-top: solid;
+margin-right: auto;
+margin-right: auto;
+Left:875px;
+}
+
+#main p
+{
+font-size: 20px;
+margin-left: auto;
+margin-right: auto;
+padding-left: 10px;
+padding-right: 160px;
+}
+
+#top
+{
+height: 225px;
+position: relative;
+top: -20;
+margin-right: auto;
+margin-right: auto;
+padding-left: 0px;
+padding-right: 15px; 
+Border-bottom:5px;
+border-bottom-style: solid;
+}
+#top p
+{
+font-size: 15px;
+position: relative;
+top:-775px;
+text-align: left;  
+}
+#first
+{
+position:relative;
+top:-765;
+}
+#middle
+{
+height: 225px;
+position: relative;
+top: -40;
+margin-right: auto;
+margin-right: auto;
+padding-left: px;
+padding-right: 15px; 
+Border-bottom:5px;
+border-bottom-style: solid;
+
+}
+#middle p
+{
+font-size: 15px;
+position: relative;
+top:-500px;
+text-align: left;  
+}
+#bottom
+{
+height: 225px;
+position: relative;
+top: -60;
+margin-right: auto;
+margin-right: auto;
+padding-left: px;
+padding-right: 15px; 
+Border-bottom:5px;
+border-bottom-style: solid;
+}
+#bottom p
+{
+font-size: 15px;
+position: relative;
+top:-250px;
+text-align: left; 
+}
+#footer
+{
+position: relative;
+margin-left: auto;
+margin-right: auto;
+top:-20px;
+text-align: center;
+border-top-style: solid;
+border-color: black;
+width: 1200px;
+
+}
+#main img
+{
+    width: 300px;
+    height:250px;
+}
+#brand
+{
+    font-size: 25px;
+}
+#store
+{
+    width: 500px;
+    height: 300px;
+}

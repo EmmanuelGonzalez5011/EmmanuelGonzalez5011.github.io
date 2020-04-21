@@ -1,0 +1,163 @@
+
+body
+{
+background-image: url(wood-bkgrd.jpg);
+}
+ #container
+ {
+	 width: 100%;
+	 margin: 10px auto;
+	 color: #333;
+	 line-height: 130%;
+	 font-style: normal;
+ }
+#masthead
+ {
+	 word-spacing: 0.3em;
+	 letter-spacing: 0.1em;
+	 
+ }
+#topbar ul
+ {
+	 margin-left: -10px;
+     margin-top: 30px;
+	 padding: 3px;
+	 list-style-type: none;
+	 font-family: sans-serif;
+	 
+ }
+ #topbar ul li
+ {
+	 display: inline;
+	 text-decoration: none;
+ }
+ #topbar ul li a
+ {
+	 text-decoration: none;
+	 padding: 3px 0.5em;
+	 color: #fff;
+	 border-color:gray;
+	 border-bottom: none;
+	 
+ }
+ #topbar ul li a:hover
+ {
+	 
+	 background-color:black;
+	 color: yellow;
+ } 
+ #navcontainer
+ {
+	 float: left;
+	 width: 200px;
+	 font-style: normal;
+	 background-attachment: scroll;
+	 margin-left: 20px;
+	 margin-top: 30px;
+	 font-size: 11px;
+ }
+ #navcontainer ul
+ {
+	 margin-left: 0;
+	 margin-right: 0;
+	 padding-left: 0;
+	 list-style-type: none;
+	 font-family: verdana;
+ }
+ #navcontainer a
+ {
+	 display: block;
+	 padding: 3px;
+	 width: 182px;
+	 background-color:#405e04;
+	 border-bottom: 1px solid gray;
+	 border-left: 1px solid gray;
+	 border-right: 1px solid gray;
+	 border-top: 1px solid gray;
+ }
+ #navcontainer a:link, #navlist a:visited
+ {
+	 color: white;
+	 text-decoration: none;
+ }
+ #navcontainer a:hover
+ {
+	 background-color: black;
+	 color:yellow;
+	 font-weight: bolder;
+ }
+ #navlist
+ {
+	 padding: 0 1px 1px;
+	 margin-top: 0;
+	 word-spacing: 0.3em;
+	 letter-spacing: .4em;
+ }
+ #content
+ {
+	 margin-left: 0px;
+	 margin-top: -10px;
+	 max-width: 1400px;
+	 height: 500px;
+	 background-color:#405e04; 
+	 color: white;
+	 border-top-width: 1px;
+	 border-right-width: 1px;
+	 border-left-width: 1px;
+	 border-bottom-width: 1px;
+	 border-top-style: solid;
+	 border-right-style: solid;
+	 border-left-style: solid;
+	 border-top-color: white;
+	 border-right-color: white;
+	 border-bottom-color: white;
+	 border-left-color:white;
+	 
+ }
+ #content p
+ {
+	 margin-left: 15px;
+ }
+ body
+ {
+	 font-family: sans-serif;
+	 color: black;
+	 background-color: darkblue;
+	
+ }
+ a
+ {
+	 text-decoration: none;
+ }
+ a:link
+ {
+	 color: red;
+ }
+ a:visited
+ {
+	 color: red;
+ }
+ a:hover
+ {
+	 background-color: red;
+	 color: white;
+	 text-decoration: none;
+ }
+ h1
+ {
+    margin-top: 30px;
+ }
+ p
+ {
+	font-size: 20px;
+	
+ }
+ #footer
+ {
+	 clear: both;
+	 margin: 0;
+	 padding: .5em;
+	 color: white;
+	 font-family: "verdana";
+	 font-size: 12px;
+ }
